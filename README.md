@@ -1,0 +1,2 @@
+# CompetitiveProgrammingSolutions
+Solutions to competitive programming contest participated
