@@ -18,7 +18,7 @@ int main()
 
 	for (long i = 0; i < q; i++)
 	{
-		int cmd;
+	        int cmd;
 		long v;
 
 		scanf("%d%ld", &cmd, &v);
@@ -33,7 +33,7 @@ int main()
 		{
 			long dif = app_nots[v] - app_read[v];
 			app_read[v] += dif;
-			unread -= dif;
+			unread -= dif;		
 		}
 		else if (cmd == 3)
 		{
